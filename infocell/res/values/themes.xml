@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyAppTheme" parent="@android:style/Theme"></style>
+
+    <style name="Theme.Example" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Example</item>
+    </style>
+
+    <style name="ActionBar.Solid.Example" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/bg_azercell</item>
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+    </style>
+
+    <style name="TitleBarTextColor" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="MyActionBarTabText" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

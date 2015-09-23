@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.simbrella.InfoCell.ConfirmationActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_large" >
+
+            <ImageView
+                android:id="@+id/imgAppNameConfirmation"
+                android:layout_width="162dip"
+                android:layout_height="42dip"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/inf_ic_text" />
+
+            <TextView
+                android:id="@+id/tvEnterConfirmCodeConfirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:text="Şifrəni daxil edin"
+                android:textSize="@dimen/TextSizeMedium"
+                android:fontFamily="Arial" />
+
+            <EditText
+                android:id="@+id/etxtConfirmationCode"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/shape_edittext"
+                android:hint="Şifrə"
+                android:padding="@dimen/margin_small"
+                android:textSize="@dimen/TextSizeMedium"
+                android:fontFamily="Arial" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnSubmitConfirmation"
+                    android:layout_width="48dip"
+                    android:layout_height="49dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/inf_ic_ok_btn"
+                    android:fontFamily="Arial" />
+
+                <Button
+                    android:id="@+id/btnRestartConfirmation"
+                    android:layout_width="48dip"
+                    android:layout_height="49dip"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/inf_ic_restart_btn"
+                    android:fontFamily="Arial" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+</LinearLayout>

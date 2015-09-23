@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" 
+    android:paddingBottom="@dimen/margin_normal">
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/llWeatherButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_menu_buttons"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center" >
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/inf_ic_weather"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top" >
+
+                    <TextView
+                        android:id="@+id/tvWeatherButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Hava"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium" 
+                        android:fontFamily="Arial"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llHoroscopeButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_menu_buttons"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center" >
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/inf_ic_mp3"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top" >
+
+                    <TextView
+                        android:id="@+id/tvHoroscopeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Qoroskop"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium" 
+                        android:fontFamily="Arial"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/llNewsButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_menu_buttons"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center" >
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/inf_ic_news"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top" >
+
+                    <TextView
+                        android:id="@+id/tvNewsButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Xəbərlər"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium" 
+                        android:fontFamily="Arial"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llMessageButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_menu_buttons"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center" >
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/inf_ic_mail"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top" >
+
+                    <TextView
+                        android:id="@+id/tvMessageButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="HazırMesaj"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium" 
+                        android:fontFamily="Arial"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/llAzercellButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_menu_buttons"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center" >
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/inf_ic_azercell"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top" >
+
+                    <TextView
+                        android:id="@+id/tvAzercellButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Azercell xidmətləri"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium" 
+                        android:fontFamily="Arial"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llEntertaimentButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_menu_buttons"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center" >
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/inf_ic_game"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top" >
+
+                    <TextView
+                        android:id="@+id/tvEntertaimentButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Əyləncə"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium"
+                        android:fontFamily="Arial" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/llInfoButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_menu_buttons"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center" >
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/inf_ic_info"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top" >
+
+                    <TextView
+                        android:id="@+id/tvInfoButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Məlumat"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium"
+                        android:fontFamily="Arial" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llLanguageButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_menu_buttons"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center" >
+
+                    <ImageButton
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/inf_ic_language"
+                        android:clickable="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top" >
+
+                    <TextView
+                        android:id="@+id/tvLanguageButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Xarici dil"
+                        android:textColor="@drawable/selector_menu_item_text"
+                        android:textSize="@dimen/TextSizeMedium" 
+                        android:fontFamily="Arial"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/layout_listview" />
+
+</RelativeLayout>

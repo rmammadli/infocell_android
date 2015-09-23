@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.simbrella.InfoCell.RegisterActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_large"
+            android:paddingRight="@dimen/margin_large" >
+
+            <ImageView
+                android:id="@+id/imgAppNameRegister"
+                android:layout_width="162dip"
+                android:layout_height="42dip"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/inf_ic_text" />
+
+            <TextView
+                android:id="@+id/tvEnterNumberRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:fontFamily="Arial"
+                android:text="Nömrənizi daxil edin"
+                android:textSize="@dimen/TextSizeMedium" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:orientation="horizontal" >
+
+                <Spinner
+                    android:id="@+id/spCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_edittext_register_spinner"
+                    android:entries="@array/codes"
+                    android:fontFamily="Arial"
+                    android:padding="@dimen/margin_small"
+                    android:textSize="@dimen/TextSizeMedium" />
+
+                <EditText
+                    android:id="@+id/etxtPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_edittext_register"
+                    android:fontFamily="Arial"
+                    android:hint="Nömrə"
+                    android:inputType="phone"
+                    android:padding="@dimen/margin_small"
+                    android:textSize="@dimen/TextSizeMedium" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSubmitPhone"
+                android:layout_width="48dip"
+                android:layout_height="49dip"
+                android:background="@drawable/inf_ic_fwd_btn"
+                android:fontFamily="Arial" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+</LinearLayout>

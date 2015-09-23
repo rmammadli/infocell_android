@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InfoCell</string>
+    <string name="str_cancel">İmtina et</string>
+    <string name="str_send">Hazırdır</string>
+    <string name="str_startagain">Yenidən başla</string>
+    <string name="str_ok">OK</string>
+    <string name="str_numberLen">Nömrə 12 simvoldan ibarət olmalıdır</string>
+    <string name="str_numberEmpty">Bu xana boş buraxıla bilməz</string>
+    <string name="str_registration">Qeydiyyat</string>
+    <string name="str_enterPhoneNumber">Telefon nömrənizi daxil edin:</string>
+    <string name="str_enterpin">SMS-lə aldığınız PİN kodu daxil edin:</string>
+    <string name="str_wrongpin">Daxil etdiyiniz PİN kod yanlışdır</string>
+    <string name="str_emptypin">Bu xana boş buraxıla bilməz</string>
+    <string name="str_unregistration">Nömrənin qeydiyyatını ləğv et</string>
+    <string name="str_unableToCharge">Ödəniş həyata keçirilə bilmir</string>
+    <string name="str_charginDown">Operatorun ödəniş sistemi müvəqqəti olaraq işləmir</string>
+    <string name="str_noBalance">Balansınızda kifayət qədər vəsait yoxdur</string>
+    <string name="str_syntaxError">Parametrlər yanlışdır</string>
+    <string name="str_requestSent">Sorğu göndərildi</string>
+    <string name="str_errorSending">Sorğunun göndərilməsində yanlışlıq baş verdi</string>
+    <string name="str_smsSent">Mesaj göndərildi</string>
+    <string name="str_menu_main">Menu‏</string>
+    <string name="str_menu_unregister">Nömrənin qeydiyyatını ləğv et‏</string>
+    <string name="str_menu_invitation">Dosta dəvət</string>
+    <string name="str_menu_about">Bizimlə əlaqə</string>
+    
+    <string name="str_confirm_success">Nömrə təsdiq olundu</string>
+    <string name="str_limit_expired">Günlük limit bitib</string>
+    <string name="str_wrongkey">Istifadə olunan açar düzgün deyil</string>
+
+    
+    <string name="tahoma_ttf">tahoma.ttf</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_confirmation">ConfirmationActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="title_activity_horoscope">HoroscopeActivity</string>
+    <string name="cancel">İmtina et</string>
+    <string name="ok">Göndər</string>
+    <string name="txt_Your">Öz bürcünü seç</string>
+    <string name="txt_Other">Digər bürcü seç</string>
+    <string name="txt_internet_connection">Internet bağlantısı yoxdur!</string>
+    
+       <string-array name="codes">
+        <item>050</item>
+        <item>051</item>
+        <item>055</item>
+        <item>070</item>
+        <item>077</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_weight="1" >
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/llInputText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_small"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tvEnteName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_small"
+                        android:fontFamily="Arial"
+                        android:text="Adınızı daxil edin:"
+                        android:textSize="@dimen/TextSizeMedium" />
+
+                    <EditText
+                        android:id="@+id/etxtName"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginBottom="@dimen/margin_normal"
+                        android:background="@drawable/shape_edittext"
+                        android:fontFamily="Arial"
+                        android:hint="Adınız"
+                        android:padding="@dimen/margin_small"
+                        android:textSize="@dimen/TextSizeMedium" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llMainPanel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_small"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_small"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tvList1"
+                            android:layout_width="0px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="Arial"
+                            android:text="@string/txt_Your"
+                            android:textColor="@color/azercell_color"
+                            android:textSize="@dimen/TextSizeSmall" />
+
+                        <TextView
+                            android:id="@+id/tvList2"
+                            android:layout_width="0px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="Arial"
+                            android:text="@string/txt_Other"
+                            android:textColor="@color/azercell_color"
+                            android:textSize="@dimen/TextSizeSmall" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <Spinner
+                            android:id="@+id/spList1"
+                            android:layout_width="0px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="Arial" />
+
+                        <Spinner
+                            android:id="@+id/spList2"
+                            android:layout_width="0px"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="Arial" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="0"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/list_selector"
+            android:fontFamily="Arial"
+            android:text="@string/cancel"
+            android:textColor="@drawable/selector_menu_item_text" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/list_selector"
+            android:fontFamily="Arial"
+            android:text="@string/ok"
+            android:textColor="@drawable/selector_menu_item_text" />
+    </TableRow>
+
+</TableLayout>

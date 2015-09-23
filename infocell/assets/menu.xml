@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<infocell>
+    <!--
+    1 - submenu
+    2 - direct web request
+    3 - web request with text input from user (inputCount - count of text inputs) / inputType (0-text, 1-phone number) , input1Label,input2Label.. - labels for text inputs
+    4 - web request with selection from two lists, inputCount count of additional text fields, firstLabel. secondLabel - labesl for lists, input1Label,input2Label.. - labels for text inputs
+    5 - SMS with predefined keyword
+    6 - SMS with input from user (inputCount - count of text inputs) / inputType (0-text, 1-phone number)
+    7 - call to number
+    -->
+    <menu title="Hava" type="1">
+        <menu title="Azərbaycan" type="1">
+            <menu title="Bakı" type="2" cmd="7026" keyword="hava#Baki" />
+            <menu title="Gəncə" type="2" cmd="7026" keyword="hava#Gence" />
+            <menu title="İsmayıllı" type="2" cmd="7026" keyword="hava#Ismayilli" />
+            <menu title="Qazax" type="2" cmd="7026" keyword="hava#Qazax" />
+            <menu title="Qəbələ" type="2" cmd="7026" keyword="hava#Qebele" />
+            <menu title="Şuşa" type="2" cmd="7026" keyword="hava#Shusha" />
+            <menu title="Naxçıvan" type="2" cmd="7026" keyword="hava#Naxcivan" />
+            <menu title="Lənkəran" type="2" cmd="7026" keyword="hava#Lenkeran" />
+            <menu title="Xaçmaz" type="2" cmd="7026" keyword="hava#Xacmaz" />
+            <menu title="Digər" type="3" inputCount="1" cmd="7026" keyword="hava#{0}" />
+        </menu>
+        <menu title="Dünya" type="1">
+            <menu title="İstanbul" type="2" cmd="7026" keyword="hava#Istanbul" />
+            <menu title="Moskva" type="2" cmd="7026" keyword="hava#Moskva" />
+            <menu title="Tbilisi" type="2" cmd="7026" keyword="hava#Tbilisi" />
+            <menu title="Daşkənd" type="2" cmd="7026" keyword="hava#Dashkend" />
+            <menu title="Tehran" type="2" cmd="7026" keyword="hava#Tehran" />
+            <menu title="London" type="2" cmd="7026" keyword="hava#London" />
+            <menu title="Berlin" type="2" cmd="7026" keyword="hava#Berlin" />
+            <menu title="Paris" type="2" cmd="7026" keyword="hava#Paris" />
+            <menu title="Vaşinqton" type="2" cmd="7026" keyword="hava#Vashinqton" />
+            <menu title="Digər" type="3" inputCount="1" cmd="7026" keyword="hava#{0}" />
+        </menu>
+    </menu>
+    <menu title="Qoroskop" type="1">
+        <menu title="Günlük" type="1">
+            <menu title="Qoç" type="2" cmd="7027" keyword="Gunluk#Qoc" />
+            <menu title="Buğa" type="2" cmd="7027" keyword="Gunluk#Buga" />
+            <menu title="Əkizlər" type="2" cmd="7027" keyword="Gunluk#Ekizler" />
+            <menu title="Xərçəng" type="2" cmd="7027" keyword="Gunluk#Xerceng" />
+            <menu title="Şir" type="2" cmd="7027" keyword="Gunluk#Shir" />
+            <menu title="Qız" type="2" cmd="7027" keyword="Gunluk#Qiz" />
+            <menu title="Tərəzi" type="2" cmd="7027" keyword="Gunluk#Terezi" />
+            <menu title="Əqrəb" type="2" cmd="7027" keyword="Gunluk#Eqreb" />
+            <menu title="Oxatan" type="2" cmd="7027" keyword="Gunluk#Oxatan" />
+            <menu title="Oğlaq" type="2" cmd="7027" keyword="Gunluk#Oglag" />
+            <menu title="Dolça" type="2" cmd="7027" keyword="Gunluk#Dolca" />
+            <menu title="Balıqlar" type="2" cmd="7027" keyword="Gunluk#Baliq" />
+        </menu>
+        <menu title="Sevgi" type="1">
+            <menu title="Qoç" type="2" cmd="7027" keyword="Sevgi#Qoc" />
+            <menu title="Buğa" type="2" cmd="7027" keyword="Sevgi#Buga" />
+            <menu title="Əkizlər" type="2" cmd="7027" keyword="Sevgi#Ekizler" />
+            <menu title="Xərçəng" type="2" cmd="7027" keyword="Sevgi#Xerceng" />
+            <menu title="Şir" type="2" cmd="7027" keyword="Sevgi#Shir" />
+            <menu title="Qız" type="2" cmd="7027" keyword="Sevgi#Qiz" />
+            <menu title="Tərəzi" type="2" cmd="7027" keyword="Sevgi#Terezi" />
+            <menu title="Əqrəb" type="2" cmd="7027" keyword="Sevgi#Eqreb" />
+            <menu title="Oxatan" type="2" cmd="7027" keyword="Sevgi#Oxatan" />
+            <menu title="Oğlaq" type="2" cmd="7027" keyword="Sevgi#Oglaq" />
+            <menu title="Dolça" type="2" cmd="7027" keyword="Sevgi#Dolca" />
+            <menu title="Balıqlar" type="2" cmd="7027" keyword="Sevgi#Baliq" />
+        </menu>
+        <menu title="Aylıq" type="1">
+            <menu title="Qoç" type="2" cmd="7029" keyword="Ayliq#Qoc" />
+            <menu title="Buğa" type="2" cmd="7029" keyword="Ayliq#Buga" />
+            <menu title="Əkizlər" type="2" cmd="7029" keyword="Ayliq#Ekizler" />
+            <menu title="Xərçəng" type="2" cmd="7029" keyword="Ayliq#Xerceng" />
+            <menu title="Şir" type="2" cmd="7029" keyword="Ayliq#Shir" />
+            <menu title="Qız" type="2" cmd="7029" keyword="Ayliq#Qiz" />
+            <menu title="Tərəzi" type="2" cmd="7029" keyword="Ayliq#Terezi" />
+            <menu title="Əqrəb" type="2" cmd="7029" keyword="Ayliq#Eqreb" />
+            <menu title="Oxatan" type="2" cmd="7029" keyword="Ayliq#Oxatan" />
+            <menu title="Oğlaq" type="2" cmd="7029" keyword="Ayliq#Oglaq" />
+            <menu title="Dolça" type="2" cmd="7029" keyword="Ayliq#Dolca" />
+            <menu title="Balıqlar" type="2" cmd="7029" keyword="Ayliq#Baliq" />
+        </menu>
+        <menu title="İllik" type="1">
+            <menu title="Qoç" type="2" cmd="7031" keyword="Illik#Qoc" />
+            <menu title="Buğa" type="2" cmd="7031" keyword="Illik#Buga" />
+            <menu title="Əkizlər" type="2" cmd="7031" keyword="Illik#Ekizler" />
+            <menu title="Xərçəng" type="2" cmd="7031" keyword="Illik#Xerceng" />
+            <menu title="Şir" type="2" cmd="7031" keyword="Illik#Shir" />
+            <menu title="Qız" type="2" cmd="7031" keyword="Illik#Qiz" />
+            <menu title="Tərəzi" type="2" cmd="7031" keyword="Illik#Terezi" />
+            <menu title="Əqrəb" type="2" cmd="7031" keyword="Illik#Eqreb" />
+            <menu title="Oxatan" type="2" cmd="7031" keyword="Illik#Oxatan" />
+            <menu title="Oğlaq" type="2" cmd="7031" keyword="Illik#Oglaq" />
+            <menu title="Dolça" type="2" cmd="7031" keyword="Illik#Dolca" />
+            <menu title="Balıqlar" type="2" cmd="7031" keyword="Illik#Baliq" />
+        </menu>
+        <menu title="Uyğunluq" type="4" cmd="7029" keyword="Uygunluq#{0}#{1}" firstLabel="Öz bürcünü seç" secondLabel="Digər bürcü seç">
+            <firstList>
+                <item title="Qoç" value="Qoc"/>
+                <item title="Buğa" value="Buga"/>
+                <item title="Əkizlər" value="Ekizler"/>
+                <item title="Xərçəng" value="Xerceng"/>
+                <item title="Şir" value="Shir"/>
+                <item title="Qız" value="Qiz"/>
+                <item title="Tərəzi" value="Terezi"/>
+                <item title="Əqrəb" value="Eqreb"/>
+                <item title="Oxatan" value="Oxatan"/>
+                <item title="Oğlaq" value="Oglaq"/>
+                <item title="Dolça" value="Dolca"/>
+                <item title="Balıqlar" value="Baliq"/>
+            </firstList>
+            <secondList>
+                <item title="Qoç" value="Qoc"/>
+                <item title="Buğa" value="Buga"/>
+                <item title="Əkizlər" value="Ekizler"/>
+                <item title="Xərçəng" value="Xerceng"/>
+                <item title="Şir" value="Shir"/>
+                <item title="Qız" value="Qiz"/>
+                <item title="Tərəzi" value="Terezi"/>
+                <item title="Əqrəb" value="Eqreb"/>
+                <item title="Oxatan" value="Oxatan"/>
+                <item title="Oğlaq" value="Oglaq"/>
+                <item title="Dolça" value="Dolca"/>
+                <item title="Balıqlar" value="Baliq"/>
+            </secondList>
+        </menu>
+    </menu>
+    <menu title="Xəbərlər" type="1">
+        <menu title="Qaynar" type="2" cmd="7026" keyword="xeber#Qaynar"/>
+        <menu title="Siyasi" type="2" cmd="7026" keyword="xeber#Siyasi"/>
+        <menu title="Sosial-İqtisadi" type="2" cmd="7026" keyword="xeber#Sosial-Iqtisadi"/>
+        <menu title="Hadisə/Kriminal" type="2" cmd="7026" keyword="xeber#Hadise"/>
+        <menu title="İdman" type="2" cmd="7026" keyword="xeber#Idman"/>
+        <menu title="Şou-Biznes" type="2" cmd="7027" keyword="xeber#Shoubiznes"/>
+    </menu>
+    <menu title="HazırMesaj" type="1">
+        <menu title="Sevgi" type="2" cmd="7080" keyword="Sevgi"/>
+        <menu title="Sevgililər günü" type="2" cmd="7080" keyword="Sevgililer gunu"/>
+        <menu title="Darıxıram" type="2" cmd="7080" keyword="Darixiram"/>
+        <menu title="Bağışla" type="2" cmd="7080" keyword="Bagisla"/>
+        <menu title="Qısqanclıq" type="2" cmd="7080" keyword="Qisqancliq"/>
+        <menu title="Ad günü" type="2" cmd="7080" keyword="Ad gunu"/>
+        <menu title="Toy" type="2" cmd="7080" keyword="Toy"/>
+        <menu title="Nişan" type="2" cmd="7080" keyword="Nisan"/>
+        <menu title="Təşəkkür" type="2" cmd="7080" keyword="Tesekkur"/>
+        <menu title="Dostluq" type="2" cmd="7080" keyword="Dostluq"/>
+        <menu title="Məzəli" type="2" cmd="7080" keyword="Mezeli"/>
+        <menu title="Təbriklər" type="1">
+            <menu title="Ramazan" type="2" cmd="7080" keyword="Ramazan"/>
+            <menu title="Qurban" type="2" cmd="7080" keyword="Qurban"/>
+            <menu title="Novruz" type="2" cmd="7080" keyword="Novruz"/>
+            <menu title="Yeni il" type="2" cmd="7080" keyword="Yeni Il"/>
+            <menu title="8 mart" type="2" cmd="7080" keyword="8 mart"/>
+            <menu title="Respublika günü" type="2" cmd="7080" keyword="Respublika gunu"/>
+            <menu title="Ordu günü" type="2" cmd="7080" keyword="Ordu gunu"/>
+            <menu title="Müstəqillik günü" type="2" cmd="7080" keyword="Musteqillik gunu"/>
+            <menu title="Qurtuluş günü" type="2" cmd="7080" keyword="Qurtulus gunu"/>
+            <menu title="Qəbul" type="2" cmd="7080" keyword="Qebul"/>
+            <menu title="Son Zəng" type="2" cmd="7080" keyword="Son Zeng"/>
+            <!--<menu title="Diger (Другие)" type="3" inputCount="1" cmd="7080" keyword="{0}"/>-->
+        </menu>
+    </menu>
+    <menu title="Azercell xidmətləri" type="1">
+        <menu title="Balans" type="1">
+            <menu title="SimSim" cmd="1002" type="7"/>
+            <menu title="Fakturalı Xett" cmd="650" type="7"/>
+        </menu>
+        <menu title="SimKredit" type="1">
+            <menu title="1 AZN" cmd="9150" keyword="kredit" type="5"/>
+            <menu title="1.40 AZN" cmd="9250" type="5" keyword="kredit"/>
+            <menu title="2 AZN" cmd="9155" keyword="kredit" type="5"/>
+        </menu>
+        <menu title="PayCell" type="1">
+            <menu title="0.20 AZN" cmd="9204" inputCount="1" input1Type="1" type="6"/>
+            <menu title="0.50 AZN" cmd="9200" inputCount="1" input1Type="1" type="6"/>
+            <menu title="1 AZN" cmd="9202" inputCount="1" input1Type="1" type="6"/>
+        </menu>
+        <menu title="SMS paketləri" type="1">
+            <menu title="50 SMS" cmd="8959" type="5" keyword="50"/>
+            <menu title="100 SMS" cmd="8959" type="5" keyword="100"/>
+            <menu title="200 SMS" cmd="8959" type="5" keyword="200"/>
+        </menu>
+        <menu title="MMS paketləri" type="1">
+            <menu title="5 MMS" cmd="8989" type="5" keyword="5"/>
+            <menu title="15 MMS" cmd="8989" type="5" keyword="15"/>
+            <menu title="25 MMS" cmd="8989" type="5" keyword="25"/>
+        </menu>
+        <menu title="İnternet paketləri" type="1">
+            <menu title="30 MB" cmd="2525" type="5" keyword="30"/>
+            <menu title="100 MB" cmd="2525" type="5" keyword="100"/>
+            <menu title="300 MB" cmd="2525" type="5" keyword="300"/>
+            <menu title="1 GB" cmd="2525" type="5" keyword="1000"/>
+            <menu title="3 GB" cmd="2525" type="5" keyword="3000"/>
+            <menu title="9 GB" cmd="2525" type="5" keyword="9000"/>
+            <menu title="18 GB" cmd="2525" type="5" keyword="18000"/>
+        </menu>
+        <menu title="Rominq" type="1">
+            <menu title="Almaniya" cmd="7027" type="2" keyword="rom#Almaniya"/>
+            <menu title="Böyük Britaniya" cmd="7027" type="2" keyword="rom#Boyuk Britaniya"/>
+            <menu title="BƏƏ" cmd="7027" type="2" keyword="rom#BEE"/>
+            <menu title="Çexiya" cmd="7027" type="2" keyword="rom#Cexiya"/>
+            <menu title="Fransa" cmd="7027" type="2" keyword="rom#Fransa"/>
+            <menu title="Gürcüstan" cmd="7027" type="2" keyword="rom#Gurcustan"/>
+            <menu title="İran" cmd="7027" type="2" keyword="rom#Iran"/>
+            <menu title="İsrail" cmd="7027" type="2" keyword="rom#Israil"/>
+            <menu title="İtaliya" cmd="7027" type="2" keyword="rom#Italiya"/>
+            <menu title="Rusiya" cmd="7027" type="2" keyword="rom#Rusiya"/>
+            <menu title="Türkiyə" cmd="7027" type="2" keyword="rom#Turkiye"/>
+            <menu title="Digər" cmd="7027" type="3" inputCount="1" keyword="rom#{0}"/>
+        </menu>
+        <menu title="Müştəri Xidmətləri" type="1">
+            <menu title="SimSim" cmd="2002" type="7"/>
+            <menu title="Fakturalı Xett" cmd="6565" type="7"/>
+        </menu>
+    </menu>
+    <menu title="Əyləncə" type="1">
+        <menu title="Afişa" type="1">
+            <menu title="Kino" type="1">
+                <menu title="ParkCinema" type="2" cmd="7027" keyword="kino#Park bulvar"/>
+                <menu title="Nizami" type="2" cmd="7027" keyword="kino#Nizami"/>
+                <menu title="28Cinema" type="2" cmd="7027" keyword="kino#28mall"/>
+                <menu title="MetroPark" type="2" cmd="7027" keyword="kino#metropark"/>
+                <!--<menu title="Diger" type="3" inputCount="1" cmd="7027" keyword="kino#{0}"/>-->
+            </menu>
+            <menu title="Teatr" type="1">
+                <menu title="AzDram" type="2" cmd="7029" keyword="teatr#AzDrama"/>
+                <menu title="RusDram" type="2" cmd="7029" keyword="teatr#RusDrama"/>
+                <menu title="Gənc Tamaşaçılar" type="2" cmd="7029" keyword="teatr#tuz"/>
+                <menu title="MusKomediya" type="2" cmd="7029" keyword="teatr#mk"/>
+                <menu title="Opera-Balet" type="2" cmd="7029" keyword="teatr#Opera&amp;Balet"/>
+                <menu title="İbrus" type="2" cmd="7029" keyword="teatr#Ibrus"/>
+                <menu title="Yug" type="2" cmd="7029" keyword="teatr#Yug"/>
+                <menu title="Pantomim" type="2" cmd="7029" keyword="teatr#Pantomim"/>
+                <menu title="Kukla" type="2" cmd="7029" keyword="teatr#Kukla teatri"/>
+                <!--<menu title="Diger" type="3" inputCount="1" cmd="7029" keyword="teatr#{0}"/>-->
+            </menu>
+            <menu title="Konsert" type="2" cmd="7027" keyword="konsert#konsert" />
+        </menu>
+
+        <menu title="Yükləmə" type="1">
+            <menu title="ZengimCell" type="1">
+                <menu title="Top" type="2" cmd="6900" keyword="top"/>
+                <menu title="Yeni" type="2" cmd="6900" keyword="yeni"/>
+                <menu title="Musiqini Dinlə" type="7" cmd="6900" />
+                <menu title="Müştəri Xidmətləri" type="7" cmd="+994124043131" />
+                <menu title="Məlumat" type="2" cmd="6900" keyword="infozengim"/>
+            </menu>
+            <menu title="Video" type="2" cmd="9797" keyword="video"/>
+            <menu title="Şəkil" type="2" cmd="9797" keyword="shekil"/>
+            <menu title="Mp3" type="1">
+                <menu title="Top" type="2" cmd="9797" keyword="top"/>
+                <menu title="Yeni" type="2" cmd="9797" keyword="new"/>
+            </menu>
+        </menu>
+        <menu title="Tanışlıq" type="1">
+            <menu title="SMS-Flirt" type="1">
+                <menu title="Qeydiyyat" cmd="6040" type="4" inputCount="1" input1Label="NIK yaz" firstLabel="Yaşını göstər" secondLabel="Cinsini göstər" keyword="{0}#{1}#{2}">
+                    <firstList>
+                        <item title="18-25" value="20"/>
+                        <item title="25-30" value="27"/>
+                        <item title="30-35" value="33"/>
+                        <item title="35-40" value="37"/>
+                        <item title="40-45" value="43"/>
+                    </firstList>
+                    <secondList>
+                        <item title="Qadın" value="q"/>
+                        <item title="Kişi" value="k"/>
+                    </secondList>
+                </menu>
+                <menu title="Həmsöhbət" type="4" cmd="6040" secondLabel="Yaşını göstər" firstLabel="Cinsini göstər" keyword="{0}#{1}">
+                    <firstList>
+                        <item title="Qadın" value="q"/>
+                        <item title="Kişi" value="k"/>
+                    </firstList>
+                    <secondList>
+                        <item title="18-25" value="18-25"/>
+                        <item title="25-30" value="25-30"/>
+                        <item title="30-35" value="30-35"/>
+                        <item title="35-40" value="35-40"/>
+                        <item title="40-45" value="40-45"/>
+                    </secondList>
+                </menu>
+            </menu>
+            <menu title="Zəng" cmd="6525" type="7"/>
+        </menu>
+        <menu title="Viktorina" type="1">
+            <menu title="Sual" type="2" cmd="7023" keyword="sual"/>
+            <menu title="Reytinq" type="2" cmd="7023" keyword="reyting"/>
+            <menu title="Məlumat" type="2" cmd="7023" keyword="melumat"/>
+        </menu>
+        <menu title="Lətifə" type="2" cmd="7027" keyword="letife"/>
+        <menu title="Fal" type="1">
+            <menu title="Taro" type="2" cmd="7711" keyword="Taro"/>
+            <menu title="Idzin" type="2" cmd="7711" keyword="Idzin"/>
+        </menu>
+        <menu title="Məsləhət" type="2" cmd="7027" keyword="Meslehet"/>
+        <menu title="Resept" type="2" cmd="7027" keyword="Gunun resepti"/>
+        <menu title="Aforizm" type="2" cmd="7027" keyword="Aforizm"/>
+        <menu title="Maraqlı Fakt" type="2" cmd="7027" keyword="Maraqli Fakt"/>
+        <menu title="Numerologiya" type="3" inputCount="1" input1Label="Adını yaz" cmd="7030" keyword="numer#{0}"/>
+    </menu>
+    <menu title="Məlumat" type="1">
+        <menu title="TV proqram" type="1">
+            <menu title="Kino" type="2" cmd="7026" keyword="tv#Kino"/>
+            <menu title="Serial" type="2" cmd="7026" keyword="tv#Serial"/>
+            <menu title="Şou" type="2" cmd="7026" keyword="tv#Shou"/>
+            <menu title="İdman" type="2" cmd="7026" keyword="tv#Idman"/>
+            <menu title="Digər" type="3" inputCount="1" input1Label="Diger" cmd="7026" keyword="tv#{0}"/>
+        </menu>
+        <menu title="Valyuta" type="1">
+            <menu title="Avro" type="2" cmd="7027" keyword="valyuta#Avro"/>
+            <menu title="Dollar" type="2" cmd="7027" keyword="valyuta#Dollar"/>
+            <menu title="Dinar" type="2" cmd="7027" keyword="valyuta#Dinar"/>
+            <menu title="Rubl" type="2" cmd="7027" keyword="valyuta#Rubl"/>
+            <menu title="Frank" type="2" cmd="7027" keyword="valyuta#Frank"/>
+            <menu title="Lirə" type="2" cmd="7027" keyword="valyuta#Lira"/>
+            <menu title="Yen" type="2" cmd="7027" keyword="valyuta#Yen"/>
+        </menu>
+        <menu title="Səyahət" type="1">
+            <menu title="Təyyarə" type="1">
+                <menu title="Naxçıvan" type="2" cmd="7026" keyword="Teyyare#Naxcivan"/>
+                <menu title="Dubay" type="2" cmd="7026" keyword="Teyyare#Dubay"/>
+                <menu title="Frankfurt" type="2" cmd="7026" keyword="Teyyare#Frankfurt"/>
+                <menu title="İstanbul" type="2" cmd="7026" keyword="Teyyare#Istanbul"/>
+                <menu title="London" type="2" cmd="7026" keyword="Teyyare#London"/>
+                <menu title="Milan" type="2" cmd="7026" keyword="Teyyare#Milan"/>
+                <menu title="Moskva" type="2" cmd="7026" keyword="Teyyare#Moskva"/>
+                <menu title="Paris" type="2" cmd="7026" keyword="Teyyare#Paris"/>
+                <menu title="Roma" type="2" cmd="7026" keyword="Teyyare#Roma"/>
+                <menu title="Tehran" type="2" cmd="7026" keyword="Teyyare#Tehran"/>
+                <menu title="Tel-Əviv" type="2" cmd="7026" keyword="Teyyare#Tel-Eviv"/>
+                <menu title="Vyana" type="2" cmd="7026" keyword="Teyyare#Vyana"/>
+                <menu title="Digər" type="3" inputCount="1" input1Label="Diger" cmd="7026" keyword="Teyyare#{0}"/>
+            </menu>
+            <menu title="Qatar" type="1">
+                <menu title="Ağstafa" type="2" cmd="7026" keyword="Qatar#Agstafa"/>
+                <menu title="Astara" type="2" cmd="7026" keyword="Qatar#Astara"/>
+                <menu title="Balakən" type="2" cmd="7026" keyword="Qatar#Balaken"/>
+                <menu title="Böyükkəsik" type="2" cmd="7026" keyword="Qatar#Boyukkesik"/>
+                <menu title="Gəncə" type="2" cmd="7026" keyword="Qatar#Gence"/>
+                <menu title="Moskva" type="2" cmd="7026" keyword="Qatar#Moskva"/>
+                <menu title="Qars" type="2" cmd="7026" keyword="Qatar#Qars"/>
+                <menu title="Qazax" type="2" cmd="7026" keyword="Qatar#Qazax"/>
+                <menu title="Rostov" type="2" cmd="7026" keyword="Qatar#Rostov"/>
+                <menu title="Tbilisi" type="2" cmd="7026" keyword="Qatar#Tiflis"/>
+                <menu title="Tümen" type="2" cmd="7026" keyword="Qatar#Tumen"/>
+                <menu title="Xarkov" type="2" cmd="7026" keyword="Qatar#Xorkov"/>
+            </menu>
+            <menu title="Turizm" type="1">
+                <menu title="Agentlik" type="2" cmd="7027" keyword="Turizm#Agentlik"/>
+                <menu title="Turlar" type="2" cmd="7027" keyword="Turizm#Turlar"/>
+                <menu title="Kampaniya" type="2" cmd="7027" keyword="Turizm#Kampaniya"/>
+            </menu>
+        </menu>
+        <menu title="Ölkə kodu" type="1">
+            <menu title="Almaniya" type="2" cmd="7026" keyword="Olke#Almaniya"/>
+            <menu title="Amerika" type="2" cmd="7026" keyword="Olke#Amerika"/>
+            <menu title="Fransa" type="2" cmd="7026" keyword="Olke#Fransa"/>
+            <menu title="Gürcüstan" type="2" cmd="7026" keyword="Olke#Gurcustan"/>
+            <menu title="İngiltərə" type="2" cmd="7026" keyword="Olke#Ingiltere"/>
+            <menu title="İran" type="2" cmd="7026" keyword="Olke#Iran"/>
+            <menu title="İtaliya" type="2" cmd="7026" keyword="Olke#Italiya"/>
+            <menu title="Özbəkistan" type="2" cmd="7026" keyword="Olke#Ozbekistan"/>
+            <menu title="Qazaxıstan" type="2" cmd="7026" keyword="Olke#Qazaxistan"/>
+            <menu title="Rusiya" type="2" cmd="7026" keyword="Olke#Rusiya"/>
+            <menu title="Türkiyə" type="2" cmd="7026" keyword="Olke#Turkiye"/>
+            <menu title="Ukrayna" type="2" cmd="7026" keyword="Olke#Ukrayna"/>
+            <menu title="Digər" type="3" inputCount="1" input1Label="Diger" cmd="7026" keyword="Olke#{0}"/>
+        </menu>
+        <menu title="Rayon kodu" type="1">
+            <menu title="Ağstafa" type="2" cmd="7026" keyword="Rayon#Agstafa"/>
+            <menu title="Gəncə" type="2" cmd="7026" keyword="Rayon#Gence"/>
+            <menu title="İsmayıllı" type="2" cmd="7026" keyword="Rayon#Ismayilli"/>
+            <menu title="Lənkəran" type="2" cmd="7026" keyword="Rayon#Lenkeran"/>
+            <menu title="Naxçıvan" type="2" cmd="7026" keyword="Rayon#Naxcivan"/>
+            <menu title="Qəbələ" type="2" cmd="7026" keyword="Rayon#Qebele"/>
+            <menu title="Qusar" type="2" cmd="7026" keyword="Rayon#Qusar"/>
+            <menu title="Sumqayıt" type="2" cmd="7026" keyword="Rayon#Sumqayit"/>
+            <menu title="Tovuz" type="2" cmd="7026" keyword="Rayon#Tovuz"/>
+            <menu title="Şəki" type="2" cmd="7026" keyword="Rayon#Sheki"/>
+            <menu title="Xaçmaz" type="2" cmd="7026" keyword="Rayon#Xacmaz"/>
+            <menu title="Digər" type="3" inputCount="1" input1Label="Diger" cmd="7026" keyword="Rayon#{0}"/>
+        </menu>
+        <menu title="Vacib nömrələr" type="1">
+            <menu title="Təcili zəng" type="2" cmd="7024" keyword="vacib#tecili"/>
+            <menu title="Qaynar xətt" type="1">
+                <menu title="Azərenerji" type="2" cmd="7024" keyword="vacib#Azerenerji"/>
+                <menu title="Azəriqaz" type="2" cmd="7024" keyword="vacib#Azeriqaz"/>
+                <menu title="Azərsu" type="2" cmd="7024" keyword="vacib#Azersu"/>
+                <menu title="Aztelekom" type="2" cmd="7024" keyword="vacib#Atelekom"/>
+                <menu title="Bakı EŞ" type="2" cmd="7024" keyword="vacib#Baki ESH"/>
+                <menu title="FHN" type="2" cmd="7024" keyword="vacib#FHN"/>
+                <menu title="Vergi" type="2" cmd="7024" keyword="vacib#Vergi"/>
+                <menu title="Səhiyyə Naz." type="2" cmd="7024" keyword="vacib#Sehiyye Naz."/>
+                <menu title="Təhsil Naz." type="2" cmd="7024" keyword="vacib#Tehsil Naz."/>
+                <menu title="DİN" type="2" cmd="7024" keyword="vacib#DIN"/>
+                <menu title="Korrupsiyaya qarşı Mİ" type="2" cmd="7024" keyword="vacib#Korrupsiya qarsi MI"/>
+                <menu title="Ekologiya" type="2" cmd="7024" keyword="vacib#Ekologiya"/>
+                <menu title="TQDK" type="2" cmd="7024" keyword="vacib#TQDK"/>
+            </menu>
+            <menu title="Məlumat Bürosu" type="1">
+                <menu title="AvtoVağzal" type="2" cmd="7024" keyword="vacib#AvtoVagzal"/>
+                <menu title="Hava Limanı" type="2" cmd="7024" keyword="vacib#Hava Limani"/>
+                <menu title="Dəmiryol Vağzalı" type="2" cmd="7024" keyword="vacib#Demiryol Vagzali"/>
+            </menu>
+            <menu title="Bank" type="2" cmd="7024" keyword="vacib#bank"/>
+            <menu title="İnternet" type="2" cmd="7024" keyword="vacib#internet"/>
+            <menu title="Kabel TV" type="2" cmd="7024" keyword="vacib#ktv"/>
+            <menu title="Taksi" type="2" cmd="7024" keyword="vacib#taksi"/>
+        </menu>
+        <menu title="Endirim" type="2" cmd="7026" keyword="endirim#endirim"/>
+        <menu title="Restoran" type="1">
+            <menu title="Milli" type="2" cmd="7027" keyword="restoran#Milli"/>
+            <menu title="Türk" type="2" cmd="7027" keyword="restoran#Turk"/>
+            <menu title="Rus" type="2" cmd="7027" keyword="restoran#Rus"/>
+            <menu title="Gürcü" type="2" cmd="7027" keyword="restoran#Gurcu"/>
+            <menu title="Avropa" type="2" cmd="7027" keyword="restoran#Avropa"/>
+            <menu title="İtaliya" type="2" cmd="7027" keyword="restoran#Italiya"/>
+            <menu title="Yapon" type="2" cmd="7027" keyword="restoran#Yapon"/>
+            <menu title="Çin" type="2" cmd="7027" keyword="restoran#Chin"/>
+        </menu>
+        <menu title="Bar-Klub" type="2" cmd="7027" keyword="bar#bar"/>
+        <menu title="Sağlamlıq" type="1">
+            <menu title="Sığorta" type="2" cmd="7026" keyword="saglam#sigorta"/>
+            <menu title="Əczaxana" type="2" cmd="7026" keyword="saglam#eczexana"/>
+            <menu title="Stomatologiya" type="2" cmd="7026" keyword="saglam#Stomatologiya"/>
+            <menu title="Doğum evi" type="2" cmd="7026" keyword="saglam#Dogum evi"/>
+            <menu title="Xəstəxana" type="2" cmd="7026" keyword="saglam#Xestexana"/>
+            <menu title="Poliklinika" type="2" cmd="7026" keyword="saglam#Poliklinika"/>
+            <menu title="Uşaq poliklinikası" type="2" cmd="7026" keyword="saglam#Ushaq poliklinikasi"/>
+            <menu title="Sanatoriya" type="2" cmd="7026" keyword="saglam#Sanatoriya"/>
+            <menu title="Məsləhət" type="2" cmd="7026" keyword="saglam#Meslehet"/>
+        </menu>
+        <menu title="Gözəllik" type="1">
+            <menu title="Kosmetologiya" type="2" cmd="7026" keyword="gozel#Kosmetologiya"/>
+            <menu title="Gözəllik salonu" type="2" cmd="7026" keyword="gozel#Gozellik Salonu"/>
+            <menu title="Parfüm&amp;Kosmetika" type="2" cmd="7026" keyword="gozel#Parfum&amp;Kosmetika"/>
+            <menu title="SPA salon" type="2" cmd="7026" keyword="gozel#SPA salon"/>
+            <menu title="Masaj" type="2" cmd="7026" keyword="gozel#Masaj"/>
+            <menu title="Fitnes" type="2" cmd="7026" keyword="gozel#Fitnes "/>
+            <menu title="Məsləhət" type="2" cmd="7026" keyword="gozel#Meslehet"/>
+        </menu>
+    </menu>
+    <menu title="Xarici dil" type="1">
+       
+            <menu title="Ingilis" type="2" cmd="7026" keyword="dil#sub ingilis"/>
+      
+
+            <menu title="Rus" type="2" cmd="7026" keyword="dil#sub rus"/>
+     
+
+            <menu title="Fransız" type="2" cmd="7026" keyword="dil#sub fransiz"/>
+     
+    
+            <menu title="Alman" type="2" cmd="7026" keyword="dil#sub alman"/>
+ 
+            <menu title="İspan" type="2" cmd="7026" keyword="dil#sub ispan"/>
+
+
+    </menu>
+</infocell>
